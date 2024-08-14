@@ -1,0 +1,60 @@
+/* DataTable.css */
+
+/* General table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 1rem;
+  text-align: left;
+  border-radius: 8px; /* Rounded corners for the table */
+  overflow: hidden; /* Ensure rounded corners are visible */
+}
+
+/* Header styling */
+thead {
+  background-color: #3498db; /* Bright blue background for header */
+  color: #ffffff; /* White text color */
+}
+
+/* Header cells styling */
+th {
+  padding: 14px 20px; /* Slightly larger padding for better readability */
+  text-align: center;
+  font-weight: bold; /* Make header text bold */
+}
+
+/* Body cells styling */
+th, td {
+  padding: 14px 20px; /* Ensure consistent padding */
+}
+
+/* Body rows styling */
+tbody tr {
+  transition: background-color 0.3s; /* Smooth transition for background color change */
+}
+
+/* Even rows styling */
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2; /* Light gray for even rows */
+}
+
+/* Hover effect for rows */
+tbody tr:hover {
+  background-color: #e0e0e0; /* Darker gray on hover */
+}
+
+/* Link styling within table */
+a {
+  text-decoration: none;
+  color: #3498db; /* Match link color with header */
+}
+
+/* Link hover effect */
+a:hover {
+  text-decoration: underline;
+  color: #2980b9; /* Darker blue on hover */
+}
+
+  
+  

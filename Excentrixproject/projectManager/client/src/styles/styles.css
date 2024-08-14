@@ -1,0 +1,96 @@
+/* General link hover effect */
+.project-info a:hover {
+  text-decoration: underline;
+  color: #e74c3c; /* Change link color to a bold red */
+}
+
+/* File upload container styling */
+.file-upload {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  background-color: #f4f4f9; /* Light gray background for the whole section */
+  border-radius: 16px; /* More pronounced rounded corners */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15); /* Enhanced shadow for a floating effect */
+}
+
+/* Drop files area */
+.drop-files {
+  border: 2px dashed #3498db; /* Vibrant blue dashed border */
+  border-radius: 12px;
+  padding: 30px;
+  text-align: center;
+  background-color: #ffffff;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.drop-files:hover {
+  background-color: #ecf0f1; /* Light background change on hover */
+  border-color: #2980b9; /* Darker blue on hover */
+}
+
+/* File previews section */
+.file-previews {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Individual file preview */
+.file-preview {
+  margin: 12px;
+  border: 1px solid #ddd; /* Light gray border around previews */
+  border-radius: 8px;
+  padding: 8px;
+  background-color: #ffffff; /* Ensure consistent background for previews */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.file-preview:hover {
+  transform: scale(1.05); /* Slightly enlarge on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* More prominent shadow on hover */
+}
+
+/* Styling for preview images */
+.file-preview img {
+  max-width: 120px;
+  max-height: 120px;
+  border-radius: 6px;
+  object-fit: cover; /* Maintain aspect ratio */
+}
+
+/* Container for upload button */
+.upload-button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* Upload button styling */
+.upload-button-container button {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 12px;
+  background-color: #2ecc71; /* Bright green background */
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s, box-shadow 0.2s; /* Added box-shadow transition */
+}
+
+.upload-button-container button:disabled {
+  background-color: #bdc3c7; /* Gray color when disabled */
+  cursor: not-allowed;
+}
+
+.upload-button-container button:not(:disabled):hover {
+  background-color: #27ae60; /* Darker green on hover */
+  transform: scale(1.05); /* Slightly enlarge on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Shadow effect on hover */
+}
+
+

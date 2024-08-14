@@ -1,0 +1,33 @@
+/* Global styling for the body */
+body {
+	margin: 0;
+	font-family: 'Helvetica Neue', Arial, sans-serif; /* Updated font stack for a modern look */
+	background-color: #f0f2f5; /* Light gray background for a subtle, clean look */
+	color: #333; /* Dark gray text for better readability */
+	line-height: 1.6; /* Improved line height for better readability */
+	-webkit-font-smoothing: antialiased; /* Smooth font rendering */
+	-moz-osx-font-smoothing: grayscale; /* Smooth font rendering for macOS */
+  }
+  
+  /* Styling for code blocks */
+  code {
+	font-family: 'Fira Code', 'Courier New', Courier, monospace; /* Updated font stack with a modern monospace font */
+	background-color: #282c34; /* Dark background for code blocks */
+	color: #e5c07b; /* Light yellow color for code text for better contrast */
+	padding: 2px 4px; /* Padding for a cleaner look */
+	border-radius: 4px; /* Rounded corners for a softer look */
+	font-size: 0.95rem; /* Slightly smaller font size for better integration in text */
+	word-wrap: break-word; /* Ensure long code lines wrap properly */
+  }
+  
+  /* Style for preformatted text blocks */
+  pre {
+	font-family: 'Fira Code', 'Courier New', Courier, monospace; /* Matching font for code blocks */
+	background-color: #1e1e1e; /* Darker background for preformatted text */
+	color: #dcdcdc; /* Light gray text for readability */
+	padding: 10px; /* Padding for spacing around the code */
+	border-radius: 8px; /* Rounded corners for consistency */
+	overflow-x: auto; /* Horizontal scroll if needed */
+	white-space: pre; /* Preserve white space formatting */
+  }
+  
